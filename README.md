@@ -16,4 +16,4 @@ Navigate this webpage in your browser of choice and use the navigation bar to ju
 N/A
 
 ## License
-Please refer to the LICENSE in the repo-
+Please refer to the LICENSE in the repository
