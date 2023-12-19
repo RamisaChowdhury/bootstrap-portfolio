@@ -1,0 +1,145 @@
+/** General **/
+* {
+    color: #243762;
+    font-family: 'DM Serif Display', serif;
+}
+
+button:hover {
+    box-shadow: 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 6vw;
+}
+
+h2 {
+    margin-bottom: 8%;
+    font-size: 5.5vw;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/** Nav **/
+.navbar {
+    z-index: 1;
+    font-size: 1.4rem;
+}
+
+
+
+/** Hero/Jumbotron **/
+.hero-background {
+    background-image: url(../images/hero.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero {
+    height: 100vh;
+}
+
+.me-hero {
+    margin-top: 3%;
+    height: 40vh;
+}
+
+.headline {
+    font-size: 3vw;
+    font-family: 'DM Serif Display', serif;
+    font-weight: lighter;
+}
+
+
+
+/** Work **/
+.work {
+    margin: 8%;
+}
+
+.my-work {
+    text-align: center;
+}
+
+.card-title {
+    color: #243762;
+}
+
+.card-img-top:hover {
+    transform: scale(1.11);
+}
+
+
+
+/** Skills **/
+.modal ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/** About Me **/
+.about-me {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.about {
+    color: #243762;
+}
+
+.about-link {
+    margin: 1%;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+a {
+    text-decoration: none;
+    color:#243762
+}
+
+
+
+/** Contact **/
+.btn-secondary {
+    color: white;
+}
+
+
+
+/** Footer **/
+footer {
+    background-color: #E9EcEf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+}
+
+
+
+@media (max-width: 400px) {
+    .hero {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+}
